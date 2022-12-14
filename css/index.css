@@ -1,0 +1,77 @@
+*,
+::before ::after {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  padding: 15px 0;
+
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  color: gray;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.hero_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-gap: 20px;
+}
+
+.hero_about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero_title {
+  margin-bottom: 48px;
+
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+.hero_subtitle {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.hero_box {
+  max-width: 500px;
+  justify-self: center;
+}
